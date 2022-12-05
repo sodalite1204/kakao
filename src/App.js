@@ -5,7 +5,7 @@ function App() {
     const { Kakao } = window;
     Kakao.Auth.authorize({
       redirectUri: 'http://localhost:3000/oauth',
-      prompts: 'login',
+      throughTalk: true,
     });
   };
   return (
