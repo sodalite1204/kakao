@@ -4,8 +4,8 @@ function App() {
   const getKakaoToken = () => {
     const { Kakao } = window;
     Kakao.Auth.authorize({
-      redirectUri: 'https://dazzling-squirrel-96a9da.netlify.app/oauth',
-      prompts: 'login',
+      redirectUri: 'http://localhost:3000/oauth',
+      prompts: 'none',
       throughTalk: true,
     });
   };
