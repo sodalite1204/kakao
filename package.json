@@ -18,6 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://dazzling-squirrel-96a9da.netlify.app/",
   "eslintConfig": {
     "extends": [
       "react-app",
