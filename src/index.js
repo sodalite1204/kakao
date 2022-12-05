@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Router from './Router';
 
 const { Kakao } = window;
-Kakao.init('476e7fd327b9d356e18d3d5ac07c4d01');
+Kakao.init('78c3d6adea57f93b4980ff9e6a6a2865');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Router />);

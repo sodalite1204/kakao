@@ -5,7 +5,7 @@ function App() {
     const { Kakao } = window;
     Kakao.Auth.authorize({
       redirectUri: 'https://dazzling-squirrel-96a9da.netlify.app/oauth',
-      prompts: 'none',
+      prompts: 'login',
       throughTalk: true,
     });
   };
